@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "WSL",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/include/c++/13.2.0", // ajuste conforme a sua versão do GCC
+                "/usr/include/x86_64-linux-gnu/c++/13.2.0", // ajuste conforme a sua versão do GCC
+                "/usr/include/c++/13.2.0/backward",
+                "/usr/include",
+                "/usr/local/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
